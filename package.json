@@ -1,0 +1,42 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "A Todo list in react js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build",
+    "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot --port 1121"
+    
+  },
+  "keywords": [
+    "reactjs",
+    "todolist"
+  ],
+  "author": "Sagar Bohat",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^3.4.1",
+    "gh-pages": "^2.2.0",
+    "react": "^16.12.0",
+    "react-alert": "^6.0.0",
+    "react-alert-template-basic": "^1.0.0",
+    "react-dom": "^16.12.0",
+    "react-flip-move": "^3.0.4",
+    "react-notifications-component": "^2.2.4",
+    "react-transition-group": "^4.3.0",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  }
+}

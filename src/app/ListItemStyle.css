@@ -1,0 +1,35 @@
+.list {
+    color: white;
+    width: 300px;
+    background-color: #bf07ac;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.list p {
+    padding: 10px;
+    position: relative;
+}
+
+.list p i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.iconTrash {
+    margin: 0 5px;
+    font-size: 15px;
+}
+.inner-list-input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+.inner-list-input:focus {
+    outline: none;
+    border: none;
+}
